@@ -1,0 +1,26 @@
+#tms_data_glossary
+
+age: age of player at feb 1st of that season
+w: wins that season
+l: losses that season
+pw: pythagorean wins
+pl: pythagorean losses
+mov: margin of victory
+sos: a rating of strength of schedule
+srs: simple rate system taking into account strenght of schedule and point differential
+ortg: estimate of points scored per 100 possessions
+drtg: estimate of points allowed per 100 possessions
+pace: estimate of possessions per 48 minutes
+ftr: number of free throw attempts per field goal attempts
+3par: percantage of field goal attempts from 3-point range
+ts%: a measure of shooting efficiency
+(off) efg%: effective field goal percentage, taking into account that 3-point shots are more valuable than 2 point shots
+(off) tov%: estimate of turnovers commited per 100 plays
+(off) orb%: estimate of offensive rebounds gained versus available
+(off) ft/fga: free throws per field goal attempt
+(def) efg%: effective field goal percentage, taking into account that 3-point shots are more valuable than 2 point shots
+(def) tov%: estimate of turnovers commited per 100 plays
+(def) orb%: estimate of offensive rebounds gained versus available
+(def) ft/fga: free throws per field goal attempt
+arena: name of the arena
+attendance: amount of attendance 
