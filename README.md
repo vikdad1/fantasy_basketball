@@ -1,12 +1,12 @@
 # Basketball Prediction App
 
 ## Overview
-At this point, the runApp.py script can be run at the command line. There are three folders in the app.
-/data/ -> this has the player data
-/models/ -> this as the linear regression model
-/functions/ -> code for processing data
+I like the NBA so created an app that allows user to select dream team, applies regression model to predict win percentage, and shares some insights with user about salary cap constraints, recommended player swaps, etc.
 
-The structure is overkill for the app as it currently stands, but I wanted to structure it so we can grow the app cleanly.
+Core app is found in /app. The runApp.py script can be run at the command line. There are three folders in the app.
+app/data -> this has the player data, extracted from basketball-reference. 
+app/models -> this as the linear regression model
+app/functions -> code for processing data
 
 ### how to run
 Enter player names as comma seperated values, plus a season. Players can only be selected from a single season. 
@@ -42,6 +42,6 @@ Expected output: "Predicted win percentage: 82.3%"
 ```
 
 ### notes
-- prediction models are really average to bad right now
-- the functions have no error handling... so the players need to be spelled correctly and have played in the listed season, otherwise will error out
-- there is currently a bug with salary cap. If the salary is too high for the initial team in 2017, it may not be possible to swap a player that gets the team to below salary cap. This causes an error... needs to be fixed.
+- prediction models are really average to bad right now. C'est la vie.
+- the functions have no error handling... so the players need to be spelled correctly and have played in the listed season, otherwise will error out.
+- there is currently a bug with salary cap. If the salary is too high for the initial team in 2017, it may not be possible to swap a player that gets the team to below salary cap. This causes an error.
