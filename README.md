@@ -1,7 +1,7 @@
 # Basketball Prediction App
 
 ## Overview
-I like the NBA so created an app that allows user to select dream team, applies regression model to predict win percentage, and shares some insights with user about salary cap constraints, recommended player swaps, etc.
+I like the NBA so I created an app that allows user to select dream team, applies regression model to predict win percentage, and shares some insights with user about salary cap constraints, recommended player swaps, etc.
 
 Core app is found in /app. The runApp.py script can be run at the command line. There are three folders in the app.
 app/data -> this has the player data, extracted from basketball-reference. 
